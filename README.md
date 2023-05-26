@@ -32,6 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Enable Extensions for osTicket in PHP Manager
 - Rename: ost-sampleconfig.php and assign permissions
 - Install HeidiSQL
+- Finish Installing osTicket
 
 
 <h2>Installation Steps</h2>
@@ -181,7 +182,38 @@ New Permissions -> Everyone -> All
 
 </p>
 <p>
-Installed HeidiSQL
+Installed HeidiSQL, then created a new session in HeidiSQL providing the password that was setup during MySQL setup.
 
 </p>
 <br />
+
+![Enable IIS in Windows](https://github.com/ChueYang90/images/blob/main/heidinewdatabase.png?raw=true)
+
+
+</p>
+<p>
+Created a new Database in HeidiSQL named osTicket.
+
+</p>
+<br />
+
+
+![Enable IIS in Windows](https://github.com/ChueYang90/images/blob/main/osTicketinstalled.png?raw=true)
+
+</p>
+<p>
+Used the new Database from HeidiSQL to finish installation of osTicket.
+
+</p>
+<br />
+
+
+![Enable IIS in Windows](https://github.com/ChueYang90/images/blob/main/osTicketfinished.png?raw=true)
+
+</p>
+<p>
+osTicket Succesfully installed.
+
+</p>
+<br />
+
